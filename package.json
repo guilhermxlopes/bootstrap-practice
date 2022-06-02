@@ -18,5 +18,6 @@
   "homepage": "https://github.com/guilhermxlopes/bootstrap-practice#readme",
   "dependencies": {
     "bootstrap": "^5.1.3"
-  }
+  },
+  "devDependencies": {}
 }
