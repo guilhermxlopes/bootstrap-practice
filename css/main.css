@@ -28,7 +28,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-altlight: #f2ebfa;
+  --bs-altlight: #6301d3;
   --bs-altdark: #522191;
   --bs-primary: rgb(0, 17, 149);
   --bs-secondary: #6c757d;
@@ -2929,33 +2929,33 @@ textarea.form-control-lg {
 }
 
 .btn-altlight {
-  color: #000;
-  background-color: #f2ebfa;
-  border-color: #f2ebfa;
+  color: #fff;
+  background-color: #6301d3;
+  border-color: #6301d3;
 }
 .btn-altlight:hover {
-  color: #000;
-  background-color: #f4eefb;
-  border-color: #f3edfb;
+  color: #fff;
+  background-color: #5401b3;
+  border-color: #4f01a9;
 }
 .btn-check:focus + .btn-altlight, .btn-altlight:focus {
-  color: #000;
-  background-color: #f4eefb;
-  border-color: #f3edfb;
-  box-shadow: 0 0 0 0.25rem rgba(206, 200, 213, 0.5);
+  color: #fff;
+  background-color: #5401b3;
+  border-color: #4f01a9;
+  box-shadow: 0 0 0 0.25rem rgba(122, 39, 218, 0.5);
 }
 .btn-check:checked + .btn-altlight, .btn-check:active + .btn-altlight, .btn-altlight:active, .btn-altlight.active, .show > .btn-altlight.dropdown-toggle {
-  color: #000;
-  background-color: #f5effb;
-  border-color: #f3edfb;
+  color: #fff;
+  background-color: #4f01a9;
+  border-color: #4a019e;
 }
 .btn-check:checked + .btn-altlight:focus, .btn-check:active + .btn-altlight:focus, .btn-altlight:active:focus, .btn-altlight.active:focus, .show > .btn-altlight.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.25rem rgba(206, 200, 213, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(122, 39, 218, 0.5);
 }
 .btn-altlight:disabled, .btn-altlight.disabled {
-  color: #000;
-  background-color: #f2ebfa;
-  border-color: #f2ebfa;
+  color: #fff;
+  background-color: #6301d3;
+  border-color: #6301d3;
 }
 
 .btn-altdark {
@@ -3229,27 +3229,27 @@ textarea.form-control-lg {
 }
 
 .btn-outline-altlight {
-  color: #f2ebfa;
-  border-color: #f2ebfa;
+  color: #6301d3;
+  border-color: #6301d3;
 }
 .btn-outline-altlight:hover {
-  color: #000;
-  background-color: #f2ebfa;
-  border-color: #f2ebfa;
+  color: #fff;
+  background-color: #6301d3;
+  border-color: #6301d3;
 }
 .btn-check:focus + .btn-outline-altlight, .btn-outline-altlight:focus {
-  box-shadow: 0 0 0 0.25rem rgba(242, 235, 250, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(99, 1, 211, 0.5);
 }
 .btn-check:checked + .btn-outline-altlight, .btn-check:active + .btn-outline-altlight, .btn-outline-altlight:active, .btn-outline-altlight.active, .btn-outline-altlight.dropdown-toggle.show {
-  color: #000;
-  background-color: #f2ebfa;
-  border-color: #f2ebfa;
+  color: #fff;
+  background-color: #6301d3;
+  border-color: #6301d3;
 }
 .btn-check:checked + .btn-outline-altlight:focus, .btn-check:active + .btn-outline-altlight:focus, .btn-outline-altlight:active:focus, .btn-outline-altlight.active:focus, .btn-outline-altlight.dropdown-toggle.show:focus {
-  box-shadow: 0 0 0 0.25rem rgba(242, 235, 250, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(99, 1, 211, 0.5);
 }
 .btn-outline-altlight:disabled, .btn-outline-altlight.disabled {
-  color: #f2ebfa;
+  color: #6301d3;
   background-color: transparent;
 }
 
@@ -4942,12 +4942,12 @@ textarea.form-control-lg {
 }
 
 .alert-altlight {
-  color: #615e64;
-  background-color: #fcfbfe;
-  border-color: #fbf9fe;
+  color: #3b017f;
+  background-color: #e0ccf6;
+  border-color: #d0b3f2;
 }
 .alert-altlight .alert-link {
-  color: #4e4b50;
+  color: #2f0166;
 }
 
 .alert-altdark {
@@ -5299,17 +5299,17 @@ textarea.form-control-lg {
 }
 
 .list-group-item-altlight {
-  color: #615e64;
-  background-color: #fcfbfe;
+  color: #3b017f;
+  background-color: #e0ccf6;
 }
 .list-group-item-altlight.list-group-item-action:hover, .list-group-item-altlight.list-group-item-action:focus {
-  color: #615e64;
-  background-color: #e3e2e5;
+  color: #3b017f;
+  background-color: #cab8dd;
 }
 .list-group-item-altlight.list-group-item-action.active {
   color: #fff;
-  background-color: #615e64;
-  border-color: #615e64;
+  background-color: #3b017f;
+  border-color: #3b017f;
 }
 
 .list-group-item-altdark {
@@ -6438,10 +6438,10 @@ textarea.form-control-lg {
 }
 
 .link-altlight {
-  color: #f2ebfa;
+  color: #6301d3;
 }
 .link-altlight:hover, .link-altlight:focus {
-  color: #f5effb;
+  color: #4f01a9;
 }
 
 .link-altdark {
@@ -6898,7 +6898,7 @@ textarea.form-control-lg {
 }
 
 .border-altlight {
-  border-color: #f2ebfa !important;
+  border-color: #6301d3 !important;
 }
 
 .border-altdark {

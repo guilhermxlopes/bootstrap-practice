@@ -3,11 +3,11 @@ $primary: rgb(0, 17, 149);
 $light: #a90000;
 
 //import the functions and the variables
-@import "../node_modules/bootstrap/scss/functions.scss";
-@import "../node_modules/bootstrap/scss/variables.scss";
+@import "../node_modules/bootstrap/scss/_functions";
+@import "../node_modules/bootstrap/scss/_variables";
 
 $custom-theme-colors: (
-  "altlight": #f2ebfa,
+  "altlight": #6301d3,
   "altdark": #522191,
 );
 
