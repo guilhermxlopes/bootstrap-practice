@@ -7,11 +7,11 @@ $light: #a90000;
 @import "../node_modules/bootstrap/scss/_variables";
 
 $custom-theme-colors: (
-  "altlight": #6301d3,
+  "gui": #6301d3,
   "altdark": #522191,
 );
 
 $theme-colors: map-merge($custom-theme-colors, $theme-colors);
 
 //import bootstrap
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/bootstrap/scss/bootstrap";

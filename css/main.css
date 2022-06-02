@@ -28,7 +28,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-altlight: #6301d3;
+  --bs-gui: #6301d3;
   --bs-altdark: #522191;
   --bs-primary: rgb(0, 17, 149);
   --bs-secondary: #6c757d;
@@ -2928,31 +2928,31 @@ textarea.form-control-lg {
   opacity: 0.65;
 }
 
-.btn-altlight {
+.btn-gui {
   color: #fff;
   background-color: #6301d3;
   border-color: #6301d3;
 }
-.btn-altlight:hover {
+.btn-gui:hover {
   color: #fff;
   background-color: #5401b3;
   border-color: #4f01a9;
 }
-.btn-check:focus + .btn-altlight, .btn-altlight:focus {
+.btn-check:focus + .btn-gui, .btn-gui:focus {
   color: #fff;
   background-color: #5401b3;
   border-color: #4f01a9;
   box-shadow: 0 0 0 0.25rem rgba(122, 39, 218, 0.5);
 }
-.btn-check:checked + .btn-altlight, .btn-check:active + .btn-altlight, .btn-altlight:active, .btn-altlight.active, .show > .btn-altlight.dropdown-toggle {
+.btn-check:checked + .btn-gui, .btn-check:active + .btn-gui, .btn-gui:active, .btn-gui.active, .show > .btn-gui.dropdown-toggle {
   color: #fff;
   background-color: #4f01a9;
   border-color: #4a019e;
 }
-.btn-check:checked + .btn-altlight:focus, .btn-check:active + .btn-altlight:focus, .btn-altlight:active:focus, .btn-altlight.active:focus, .show > .btn-altlight.dropdown-toggle:focus {
+.btn-check:checked + .btn-gui:focus, .btn-check:active + .btn-gui:focus, .btn-gui:active:focus, .btn-gui.active:focus, .show > .btn-gui.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.25rem rgba(122, 39, 218, 0.5);
 }
-.btn-altlight:disabled, .btn-altlight.disabled {
+.btn-gui:disabled, .btn-gui.disabled {
   color: #fff;
   background-color: #6301d3;
   border-color: #6301d3;
@@ -3228,27 +3228,27 @@ textarea.form-control-lg {
   border-color: #212529;
 }
 
-.btn-outline-altlight {
+.btn-outline-gui {
   color: #6301d3;
   border-color: #6301d3;
 }
-.btn-outline-altlight:hover {
+.btn-outline-gui:hover {
   color: #fff;
   background-color: #6301d3;
   border-color: #6301d3;
 }
-.btn-check:focus + .btn-outline-altlight, .btn-outline-altlight:focus {
+.btn-check:focus + .btn-outline-gui, .btn-outline-gui:focus {
   box-shadow: 0 0 0 0.25rem rgba(99, 1, 211, 0.5);
 }
-.btn-check:checked + .btn-outline-altlight, .btn-check:active + .btn-outline-altlight, .btn-outline-altlight:active, .btn-outline-altlight.active, .btn-outline-altlight.dropdown-toggle.show {
+.btn-check:checked + .btn-outline-gui, .btn-check:active + .btn-outline-gui, .btn-outline-gui:active, .btn-outline-gui.active, .btn-outline-gui.dropdown-toggle.show {
   color: #fff;
   background-color: #6301d3;
   border-color: #6301d3;
 }
-.btn-check:checked + .btn-outline-altlight:focus, .btn-check:active + .btn-outline-altlight:focus, .btn-outline-altlight:active:focus, .btn-outline-altlight.active:focus, .btn-outline-altlight.dropdown-toggle.show:focus {
+.btn-check:checked + .btn-outline-gui:focus, .btn-check:active + .btn-outline-gui:focus, .btn-outline-gui:active:focus, .btn-outline-gui.active:focus, .btn-outline-gui.dropdown-toggle.show:focus {
   box-shadow: 0 0 0 0.25rem rgba(99, 1, 211, 0.5);
 }
-.btn-outline-altlight:disabled, .btn-outline-altlight.disabled {
+.btn-outline-gui:disabled, .btn-outline-gui.disabled {
   color: #6301d3;
   background-color: transparent;
 }
@@ -4941,12 +4941,12 @@ textarea.form-control-lg {
   padding: 1.25rem 1rem;
 }
 
-.alert-altlight {
+.alert-gui {
   color: #3b017f;
   background-color: #e0ccf6;
   border-color: #d0b3f2;
 }
-.alert-altlight .alert-link {
+.alert-gui .alert-link {
   color: #2f0166;
 }
 
@@ -5298,15 +5298,15 @@ textarea.form-control-lg {
   border-bottom-width: 0;
 }
 
-.list-group-item-altlight {
+.list-group-item-gui {
   color: #3b017f;
   background-color: #e0ccf6;
 }
-.list-group-item-altlight.list-group-item-action:hover, .list-group-item-altlight.list-group-item-action:focus {
+.list-group-item-gui.list-group-item-action:hover, .list-group-item-gui.list-group-item-action:focus {
   color: #3b017f;
   background-color: #cab8dd;
 }
-.list-group-item-altlight.list-group-item-action.active {
+.list-group-item-gui.list-group-item-action.active {
   color: #fff;
   background-color: #3b017f;
   border-color: #3b017f;
@@ -6437,10 +6437,10 @@ textarea.form-control-lg {
   content: "";
 }
 
-.link-altlight {
+.link-gui {
   color: #6301d3;
 }
-.link-altlight:hover, .link-altlight:focus {
+.link-gui:hover, .link-gui:focus {
   color: #4f01a9;
 }
 
@@ -6897,7 +6897,7 @@ textarea.form-control-lg {
   border-left: 0 !important;
 }
 
-.border-altlight {
+.border-gui {
   border-color: #6301d3 !important;
 }
 
