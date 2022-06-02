@@ -83,7 +83,7 @@
             <span class="tt" data-bs-placement="bottom" title="Net Ninja Book Cover">
               <img
               class="img-fluid"
-              src="/assets/ebook-cover.png"
+              src="assets/ebook-cover.png"
               alt="ebook-cover"
             /></span>
 
@@ -529,6 +529,41 @@
             </div>
           </section>
 
+          <!-- get updates/modal trigger -->
+          <section class="bg-light">
+            <div class="container">
+              <div class="text-center">
+                <h2>Stay in The Loop</h2>
+                <p class="lead">Get the lastest updates as they happen..</p>
+              </div>
+              <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                  <p class="text-muted my-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minus itaque non distinctio ratione esse doloremque voluptas vero tempora veritatis dolorum error, deleniti in ullam vitae voluptatibus assumenda dignissimos reiciendis?</p>
+                  <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#reg-modal">Register for Updates</button>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- modal itself -->
+          <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby = "modal-title" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modal-title">Get the Lastest Updates</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" arial-label="close"></button>
+                </div>
+                <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, a. Distinctio sit necessitatibus facilis accusantium delectus minima nihil possimus, quod, provident reiciendis veritatis! Beatae libero, iusto voluptate deserunt quis quos.</p>
+                  <label for="modal-email" class="form-label">Your email address:</label>
+                  <input type="email" class="form-control" id="modal-email" placeholder="e.g. mario@example.com">
+                </div>d
+                <div class="modal-footer">
+                  <button class="btn btn-primary">Submit</button>
+                </div>
+              </div>
+            </div>
+          </div>
           
 
           <script
@@ -542,8 +577,5 @@
               new bootstrap.Tooltip(t)
             })
           </script>
-
-        </div>
-      </div>
   </body>
 </html>
